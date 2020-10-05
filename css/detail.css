@@ -127,6 +127,24 @@ body {
     background-repeat: no-repeat;
 }
 
+
+.detail-serie {
+    background-image: url(https://i.pinimg.com/originals/38/fe/dd/38feddf39d5a3003e3cb0b3c6f0eab50.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.detail-serie {
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url(https://i.pinimg.com/originals/38/fe/dd/38feddf39d5a3003e3cb0b3c6f0eab50.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .hero-inner {
     max-width: 50vw;
     padding-left: 2rem;
