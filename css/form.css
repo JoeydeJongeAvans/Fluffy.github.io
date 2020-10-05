@@ -123,7 +123,7 @@ input:not([type="checkbox"]) {
 .container-form {
   background-color: #fff;
   border-radius: 3px;
-  border: 20px solid #dce7ff;
+  border: 20px solid #e67e22;
   width: 90%;
   max-width: 100%;
   display: flex;
