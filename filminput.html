@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+  <head>
+    <html lang="en"></html>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name=”robots” content="noindex, nofollow">
+    <link rel="stylesheet" href="css/Minify/film.min.css" />
+    <link rel="stylesheet" href="css/Minify/form.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <title>Fluffy - Movie</title>
+    <meta name="description" content="Fluffy the movie database that everybody loves">
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <ul>
+          <li><a href="film.html">Home</a></li>
+          <li><a href="movie.html">Movie</a></li>
+          <li>
+            <h1 class="navh1">Fluffy</h1>
+          </li>
+          <li><a href="serie.html">Series</a></li>
+          <li><a href="filminput.html">Toevoegen</a></li>
+          <li><a href="FilmZoeken.html"></a>Zoeken</li>
+          <li><a href="aboutMe.html">About me</a></li>
+        </ul>
+      </header>
+
+      <div class="cd-slider">
+        <ul>
+          <li>
+            <div
+              class="image"
+              style="
+                background-image: url(https://media.newsmonkey.be/20200902205218/James-Bond-No-Time-To-Die-1024x576.jpg);
+              "
+            ></div>
+            <div class="content">
+              <h2 class="navh2 content-h2">No Time to die</h2>
+            </div>
+          </li>
+          <li>
+            <div
+              class="image"
+              style="
+                background-image: url(https://www.superguide.nl/s3fs-public/main_media/black-widow-trailer.png);
+              "
+            ></div>
+            <div class="content">
+              <h2 class="navh2 content-h2">Black Widow</h2>
+            </div>
+          </li>
+          <li>
+            <div
+              class="image"
+              style="
+                background-image: url(https://images2.persgroep.net/rcs/wye_BXDL3Cqra7C8olyIhJk4D50/diocontent/154924259/_fitwidth/763?appId=2dc96dd3f167e919913d808324cbfeb2&quality=0.8);
+              "
+            ></div>
+            <div class="content">
+              <h2 class="navh2 content-h2">Peaky Blinder</h2>
+            </div>
+          </li>
+          <li>
+            <div
+              class="image"
+              style="
+                background-image: url(https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABfHVUAAEhu-G5QHH31CutuqX0wBfTK4nzyJXSyUkXm13Stw-yFpmeMzfTkBcmlsWu_CHM-JNr2d2sjncwPLkqG968JMe.jpg?r=321);
+              "
+            ></div>
+            <div class="content">
+              <h2 class="navh2 content-h2">Narcos</h2>
+            </div>
+          </li>
+          <li>
+            <div
+              class="image"
+              style="
+                background-image: url(https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg);
+              "
+            ></div>
+            <div class="content">
+              <h2 class="navh2 content-h2">Game of Thrones</h2>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--/.cd-slider-->
+
+      <div class="container-form">
+        <form>
+          <h3>Film toevoegen formulier</h3>
+          <div class="form-control">
+            <label for="filmtitel">Film titel</label>
+            <input type="text" id="filmtitel" placeholder="Enter film titel" />
+          </div>
+          <div class="form-control">
+            <label for="Rdatum">Release datum:</label>
+            <input type="date" id="Rdatum" />
+          </div>
+          <div class="form-control">
+            <label for="Samenvatting">Samenvatting:</label>
+            <input type="text" id="Samenvatting" placeholder="Samenvatting" />
+          </div>
+          <div class="form-control">
+            <label for="time">Duur:</label>
+            <input type="time" id="timeMovie" />
+          </div>
+          <div class="form-control">
+            <label for="language">Taal</label>
+            <input type="text" id="language" placeholder="Enter language " />
+          </div>
+          <div class="form-control">
+            <label for="Genre">Genre</label>
+            <input type="text" id="Genre" placeholder="Enter Genre " />
+          </div>
+          <div class="form-control">
+            <label for="email">Film company</label>
+            <input type="text" id="email" placeholder="Enter Film company " />
+          </div>
+          <div class="form-control">
+            <label for="email">Actor</label>
+            <input type="text" id="email" placeholder="Enter Actors " />
+          </div>
+
+          <button class="btn">Voeg film toe aan fluffy</button>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/Minify/film.min.js"></script>
+  </body>
+</html>
