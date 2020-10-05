@@ -1,227 +1,213 @@
 <!DOCTYPE html>
 <html lang="en"></html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Fluffy the movie database that everybody loves">
-    <meta name="keywords" content="Movie, Serie">
-    <meta name="author" content="Joey de Jonge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name=”robots” content="index, follow">
-    <title>Fluffy - Movie</title>
-
-   
-    <!-- Bootstrap -->
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <!-- Font Awesome iconic font -->
-    <link href="./fontawesome/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" />
-    <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Oswald:300,400,500,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-    <!-- Theme styles -->
-    <link href="./css/film.css" rel="stylesheet" type="text/css">
-
-    <link href="./css/movie.css" rel="stylesheet" type="text/css">
-
-    <link href="./css/detail.css" rel="stylesheet" type="text/css">
-
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+   <title>Fluffy - Movie</title>
+   <meta name="keywords" content="Movie, Serie">
+   <meta charset="UTF-8">
+   <meta name="description" content="Fluffy the movie database that everybody loves">
+   <meta name="author" content="Joey de Jonge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name=”robots” content="index, follow">
+   <!-- Bootstrap -->
+   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+   <!-- Font Awesome iconic font -->
+   <link href="./fontawesome/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" />
+   <!-- Fonts -->
+   <link href='https://fonts.googleapis.com/css?family=Oswald:300,400,500,700' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+   <!-- Theme styles -->
+   <link href="./css/film.css" rel="stylesheet" type="text/css">
+   <link href="./css/movie.css" rel="stylesheet" type="text/css">
+   <link href="./css/detail.css" rel="stylesheet" type="text/css">
 </head>
-
 <body class="body">
-    <div class="main">
-        <header>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="movie.html">Movie</a></li>
-                <li>
-                    <h1 class="navh1">Fluffy</h1>
-                </li>
-                <li><a href="serie.html">Series</a></li>
-                <li><a href="filminput.html">Toevoegen</a></li>
-                <li><a href="filmZoeken.html">Zoeken</a></li>
-                <li><a href="aboutMe.html">About me</a></li>
-            </ul>
-        </header>
-
-        <div class="cd-slider">
-            <ul>
-                <li>
-                    <div class="image"
-                        style="background-image:url(https://media.newsmonkey.be/20200902205218/James-Bond-No-Time-To-Die-1024x576.jpg);">
-                    </div>
-                    <div class="content">
-                        <h2 class="navh2 content-h2">No Time to die</h2>
-
-                    </div>
-                </li>
-                <li>
-                    <div class="image"
-                        style="background-image:url(https://www.superguide.nl/s3fs-public/main_media/black-widow-trailer.png);">
-                    </div>
-                    <div class="content">
-                        <h2 class="navh2 content-h2">Black Widow</h2>
-
-                    </div>
-                </li>
-                <li>
-                    <div class="image"
-                        style="background-image:url(https://images2.persgroep.net/rcs/wye_BXDL3Cqra7C8olyIhJk4D50/diocontent/154924259/_fitwidth/763?appId=2dc96dd3f167e919913d808324cbfeb2&quality=0.8);">
-                    </div>
-                    <div class="content">
-                        <h2 class="navh2 content-h2">Peaky Blinder</h2>
-
-                    </div>
-                </li>
-                <li>
-                    <div class="image"
-                        style="background-image:url(https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABfHVUAAEhu-G5QHH31CutuqX0wBfTK4nzyJXSyUkXm13Stw-yFpmeMzfTkBcmlsWu_CHM-JNr2d2sjncwPLkqG968JMe.jpg?r=321);">
-                    </div>
-                    <div class="content">
-                        <h2 class="navh2 content-h2">Narcos</h2>
-
-                    </div>
-                </li>
-                <li>
-                    <div class="image"
-                        style="background-image:url(https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg);">
-                    </div>
-                    <div class="content">
-                        <h2 class="navh2 content-h2">Game of Thrones</h2>
-
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <!--/.cd-slider-->
-         <!-- Hero Image-->
-         <section class="detail">
-            <div class="hero-inner">
-                <h2>13 Hours: The Secret Soldiers of Benghazi </h2>
+   <div class="main">
+   <header>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="movie.html">Movie</a></li>
+         <li>
+            <h1 class="navh1">Fluffy</h1>
+         </li>
+         <li><a href="serie.html">Series</a></li>
+         <li><a href="filminput.html">Toevoegen</a></li>
+         <li><a href="filmZoeken.html">Zoeken</a></li>
+         <li><a href="aboutMe.html">About me</a></li>
+      </ul>
+   </header>
+   <div class="cd-slider">
+      <ul>
+         <li>
+            <div class="image"
+               style="background-image:url(https://media.newsmonkey.be/20200902205218/James-Bond-No-Time-To-Die-1024x576.jpg);">
             </div>
-        </section>
-        <!-- 3-Up Features-->
-        <section class="features">
-            <div class="features-inner">
-                <article class="features-group">
-                    <div class="features-image"><img alt="Micheal Bay"
-                            src="https://m.media-amazon.com/images/M/MV5BMTc2NzcyMDU5NV5BMl5BanBnXkFtZTcwODc1OTM0NA@@._V1_UY317_CR7,0,214,317_AL_.jpg" />
-                    </div>
-                    <div class="features-text">
-                        <strong>Lead director: Micheal Bay</strong>
-                    </div>
-                    <div class="features-text">
-                        <p>A graduate of Wesleyan University, Michael Bay spent his 20s working on advertisements and music videos. His first projects after film school were in the music video business. He created music videos for Tina Turner, Meat Loaf, Lionel Richie, Wilson Phillips, Donny Osmond and Divinyls. His work won him recognition and a number of MTV award </p>
-                    </div>
-                </article>
-                <article class="features-group">
-                    <div class="features-image"><img alt="12 Hours to Benghazi" src="https://media.s-bol.com/RZZpQEBQ05q/550x781.jpg" /></div>
-                    <div class="features-text">
-                        <div class="features-text">
-                            <strong>Storyline</strong>
-                        </div>
-                        <div class="features-text">
-                            <p>Libya, 2012. At an unofficial CIA base in Benghazi a group of ex-military contractors are providing security. In the aftermath of Gaddafi's downfall a power vacuum exists and the climate is volatile. Military weapons are freely available. The US Ambassador to Libya, Chris Stevens, makes a visit to the area, staying in a compound near the CIA base. On the night of 11 September, 2012, the Ambassador's compound is attacked by hordes of heavily armed locals. The only forces willing and able to defend it are six CIA contractors.</p>
-                        </div>
-                </article>
-                <article class="features-group">
-                    <div class="features-image"><img alt="John Krasinki" src="https://m.media-amazon.com/images/M/MV5BMTc3MzY3MjQ3OV5BMl5BanBnXkFtZTcwODI3NjQxMw@@._V1_UY317_CR6,0,214,317_AL_.jpg" />
-                    </div>
-                    <div class="features-text">
-                        <strong>Lead Actor: John Krasinki</strong>
-                    </div>
-                    <div class="features-text">
-                        <p>Tall, handsome American film and television star John Krasinski is known for his role as sardonic nice guy Jim Halpert on NBC's popular TV series, The Office (2005), for which he won a 2007 and 2008 Screen Actors Guild Award for outstanding performance by an ensemble in a comedy series. </p>
-                    </div>
-                </article>
+            <div class="content">
+               <h2 class="navh2 content-h2">No Time to die</h2>
             </div>
-        </section>
-        <!-- Call Out-->
-        <section class="callout">
-            <div class="callout-inner">
-                <h3>Tanto: Seriously guys. If the consulate ordered a pizza it would have been there by now.
-                </h3>
+         </li>
+         <li>
+            <div class="image"
+               style="background-image:url(https://www.superguide.nl/s3fs-public/main_media/black-widow-trailer.png);">
             </div>
-        </section>
-        <!-- Blog-->
-        <section id="blog">
-            <div class="blog-inner">
-                <div class="blog-grid">
-                    <div class="blog-image"><img alt="12 Hours to Benghazi" src="https://static01.nyt.com/images/2016/01/15/arts/15THIRTEENSUB/15THIRTEENSUB-articleLarge.jpg?quality=75&auto=webp&disable=upscale" /></div>
-                    <div class="blog-text">
-                        <div class="features-text">
-                            <strong>Techical specs</strong>
-                        </div>
-                        <p class="blog-summary">Runtime: 144 min <br>
-                            Sound Mix: Dolby Digital | Datasat | Dolby Atmos | D-Cinema 48kHz 7.1 | Dolby Surround 7.1<br>
-                            Color: Color</p>
-                    </div>
-                    <div class="blog-image"><img alt="12 Hours to Benghazi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRld9KHwOvWe8TLFHizHyeAFRy6ZP76NnMlcg&usqp=CAU" /></div>
-                    <div class="blog-text">
-                        <div class="features-text">
-                            <strong>Genre: (Action | War | Drama)</strong>
-                        </div>
-                     
-                    </div>
-                    <div class="blog-image"><img alt="12 Hours to Benghazi" src="https://images04.military.com/sites/default/files/styles/full/public/undertheradar-thumbnails/2015/11/13hourstrailer2.jpg?itok=v1HZf3ID" /></div>
-                    <div class="blog-text">
-                        <div class="features-text">
-                            <strong>Details</strong>
-                        </div>
-                        <p class="blog-summary">Country: Malta | Morocco | USA <br>
-                            Language: English | Arabic<br>
-                            Release Date: 15 January 2016 (USA)<br>
-                            Also Known As: 13 Hours: The Secret Soldiers of Benghazi<br>
-                            Filming Locations: Attard, Malta</p>
-                    </div>
-                </div>
+            <div class="content">
+               <h2 class="navh2 content-h2">Black Widow</h2>
             </div>
-        </section>
-    </div>
-    <footer class="section-text-white footer footer-links bg-darken">
-        <div class="footer-body container">
-            <div class="row">
-                <div class="col-sm-6 col-lg-3">
-                    <a class="footer-logo" href="./">
-                            <span class="logo-text text-uppercase">
-                                <span>Fluffy</span>
-                            </span>
-                    </a>
-                    <div class="footer-content footer-color">
-                        <p class="footer-text">Blikhoek 54 4453BG
-                            <br />Netherlands ZL</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <h5 class="footer-title footer-color text-uppercase">Movies</h5>
-                    <ul class="list-unstyled list-wide footer-content">
-                        <li>
-                            <a class="content-link" href="#">All Movies</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <h5 class="footer-title footer-color text-uppercase">Series</h5>
-                    <ul class="list-unstyled list-wide footer-content">
-                        <li>
-                            <a class="content-link" href="#">All Movies</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <h5 class="footer-title footer-color text-uppercase">Informatie</h5>
-                    <ul class="list-unstyled list-wide footer-content">
-                        <li>
-                            <a class="content-link" href="filminput.html">Film toevoegen</a>
-                        </li>
-                        <li>
-                            <a class="content-link" href="FilmZoeken.html">Film zoeken</a>
-                          </li>
-                    </ul>
-                </div>
-
+         </li>
+         <li>
+            <div class="image"
+               style="background-image:url(https://images2.persgroep.net/rcs/wye_BXDL3Cqra7C8olyIhJk4D50/diocontent/154924259/_fitwidth/763?appId=2dc96dd3f167e919913d808324cbfeb2&quality=0.8);">
             </div>
-        </div>
-    </footer>
-    <script src="./js/Minify/film.min.js"></script>
+            <div class="content">
+               <h2 class="navh2 content-h2">Peaky Blinder</h2>
+            </div>
+         </li>
+         <li>
+            <div class="image"
+               style="background-image:url(https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABfHVUAAEhu-G5QHH31CutuqX0wBfTK4nzyJXSyUkXm13Stw-yFpmeMzfTkBcmlsWu_CHM-JNr2d2sjncwPLkqG968JMe.jpg?r=321);">
+            </div>
+            <div class="content">
+               <h2 class="navh2 content-h2">Narcos</h2>
+            </div>
+         </li>
+         <li>
+            <div class="image"
+               style="background-image:url(https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg);">
+            </div>
+            <div class="content">
+               <h2 class="navh2 content-h2">Game of Thrones</h2>
+            </div>
+         </li>
+      </ul>
+   </div>
+   <!--/.cd-slider-->
+   <!-- Hero Image-->
+   <section class="detail">
+      <div class="hero-inner">
+         <h2>13 Hours: The Secret Soldiers of Benghazi </h2>
+      </div>
+   </section>
+   <!-- 3-Up Features-->
+   <section class="features">
+      <div class="features-inner">
+         <article class="features-group">
+            <div class="features-image"><img alt="Micheal Bay"
+               src="https://m.media-amazon.com/images/M/MV5BMTc2NzcyMDU5NV5BMl5BanBnXkFtZTcwODc1OTM0NA@@._V1_UY317_CR7,0,214,317_AL_.jpg" />
+            </div>
+            <div class="features-text">
+               <strong>Lead director: Micheal Bay</strong>
+            </div>
+            <div class="features-text">
+               <p>A graduate of Wesleyan University, Michael Bay spent his 20s working on advertisements and music videos. His first projects after film school were in the music video business. He created music videos for Tina Turner, Meat Loaf, Lionel Richie, Wilson Phillips, Donny Osmond and Divinyls. His work won him recognition and a number of MTV award </p>
+            </div>
+         </article>
+         <article class="features-group">
+            <div class="features-image"><img alt="12 Hours to Benghazi" src="https://media.s-bol.com/RZZpQEBQ05q/550x781.jpg" /></div>
+            <div class="features-text">
+               <div class="features-text">
+                  <strong>Storyline</strong>
+               </div>
+               <div class="features-text">
+                  <p>Libya, 2012. At an unofficial CIA base in Benghazi a group of ex-military contractors are providing security. In the aftermath of Gaddafi's downfall a power vacuum exists and the climate is volatile. Military weapons are freely available. The US Ambassador to Libya, Chris Stevens, makes a visit to the area, staying in a compound near the CIA base. On the night of 11 September, 2012, the Ambassador's compound is attacked by hordes of heavily armed locals. The only forces willing and able to defend it are six CIA contractors.</p>
+               </div>
+         </article>
+         <article class="features-group">
+         <div class="features-image"><img alt="John Krasinki" src="https://m.media-amazon.com/images/M/MV5BMTc3MzY3MjQ3OV5BMl5BanBnXkFtZTcwODI3NjQxMw@@._V1_UY317_CR6,0,214,317_AL_.jpg" />
+         </div>
+         <div class="features-text">
+         <strong>Lead Actor: John Krasinki</strong>
+         </div>
+         <div class="features-text">
+         <p>Tall, handsome American film and television star John Krasinski is known for his role as sardonic nice guy Jim Halpert on NBC's popular TV series, The Office (2005), for which he won a 2007 and 2008 Screen Actors Guild Award for outstanding performance by an ensemble in a comedy series. </p>
+         </div>
+         </article>
+         </div>
+   </section>
+   <!-- Call Out-->
+   <section class="callout">
+   <div class="callout-inner">
+   <h3>Tanto: Seriously guys. If the consulate ordered a pizza it would have been there by now.
+   </h3>
+   </div>
+   </section>
+   <!-- Blog-->
+   <section id="blog">
+   <div class="blog-inner">
+   <div class="blog-grid">
+   <div class="blog-image"><img alt="12 Hours to Benghazi" src="https://static01.nyt.com/images/2016/01/15/arts/15THIRTEENSUB/15THIRTEENSUB-articleLarge.jpg?quality=75&auto=webp&disable=upscale" /></div>
+   <div class="blog-text">
+   <div class="features-text">
+   <strong>Techical specs</strong>
+   </div>
+   <p class="blog-summary">Runtime: 144 min <br>
+   Sound Mix: Dolby Digital | Datasat | Dolby Atmos | D-Cinema 48kHz 7.1 | Dolby Surround 7.1<br>
+   Color: Color</p>
+   </div>
+   <div class="blog-image"><img alt="12 Hours to Benghazi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRld9KHwOvWe8TLFHizHyeAFRy6ZP76NnMlcg&usqp=CAU" /></div>
+   <div class="blog-text">
+   <div class="features-text">
+   <strong>Genre: (Action | War | Drama)</strong>
+   </div>
+   </div>
+   <div class="blog-image"><img alt="12 Hours to Benghazi" src="https://images04.military.com/sites/default/files/styles/full/public/undertheradar-thumbnails/2015/11/13hourstrailer2.jpg?itok=v1HZf3ID" /></div>
+   <div class="blog-text">
+   <div class="features-text">
+   <strong>Details</strong>
+   </div>
+   <p class="blog-summary">Country: Malta | Morocco | USA <br>
+   Language: English | Arabic<br>
+   Release Date: 15 January 2016 (USA)<br>
+   Also Known As: 13 Hours: The Secret Soldiers of Benghazi<br>
+   Filming Locations: Attard, Malta</p>
+   </div>
+   </div>
+   </div>
+   </section>
+   </div>
+   <footer class="section-text-white footer footer-links bg-darken">
+      <div class="footer-body container">
+         <div class="row">
+            <div class="col-sm-6 col-lg-3">
+               <a class="footer-logo" href="./">
+               <span class="logo-text text-uppercase">
+               <span>Fluffy</span>
+               </span>
+               </a>
+               <div class="footer-content footer-color">
+                  <p class="footer-text">Blikhoek 54 4453BG
+                     <br />Netherlands ZL
+                  </p>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <h5 class="footer-title footer-color text-uppercase">Movies</h5>
+               <ul class="list-unstyled list-wide footer-content">
+                  <li>
+                     <a class="content-link" href="#">All Movies</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <h5 class="footer-title footer-color text-uppercase">Series</h5>
+               <ul class="list-unstyled list-wide footer-content">
+                  <li>
+                     <a class="content-link" href="#">All Movies</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <h5 class="footer-title footer-color text-uppercase">Informatie</h5>
+               <ul class="list-unstyled list-wide footer-content">
+                  <li>
+                     <a class="content-link" href="filminput.html">Film toevoegen</a>
+                  </li>
+                  <li>
+                     <a class="content-link" href="FilmZoeken.html">Film zoeken</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="./js/Minify/film.min.js"></script>
 </body>
 </html>

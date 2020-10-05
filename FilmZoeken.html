@@ -1,570 +1,559 @@
 <!DOCTYPE html>
 <html lang="en"></html>
-  <head>
-    
-    <meta charset="UTF-8">
-    <meta name="description" content="Fluffy the movie database that everybody loves">
-    <meta name="keywords" content="Movie, Serie">
-    <meta name="author" content="Joey de Jonge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name=”robots” content="index, follow">
-    <title>Fluffy - Movie</title>
-    <!-- Bootstrap -->
-    <link
+<head>
+   <title>Fluffy - Movie</title>
+   <meta name="keywords" content="Movie, Serie">
+   <meta charset="UTF-8">
+   <meta name="description" content="Fluffy the movie database that everybody loves">
+   <meta name="author" content="Joey de Jonge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name=”robots” content="index, follow">
+   <!-- Bootstrap -->
+   <link
       href="./bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
       type="text/css"
-    />
-    <!-- Font Awesome iconic font -->
-    <link
+      />
+   <!-- Font Awesome iconic font -->
+   <link
       href="./fontawesome/css/fontawesome-all.min.css"
       rel="stylesheet"
       type="text/css"
-    />
-    <!-- Fonts -->
-    <link
+      />
+   <!-- Fonts -->
+   <link
       href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700"
       rel="stylesheet"
       type="text/css"
-    />
-    <link
+      />
+   <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
       rel="stylesheet"
       type="text/css"
-    />
-    <!-- Theme styles -->
-    <link href="./css/film.css" rel="stylesheet" type="text/css" />
-
-    <link href="./css/movie.css" rel="stylesheet" type="text/css" />
-
-    <link href="./css/detail.css" rel="stylesheet" type="text/css" />
-  </head>
-
-  <body class="body">
-    <div class="main">
+      />
+   <!-- Theme styles -->
+   <link href="./css/film.css" rel="stylesheet" type="text/css" />
+   <link href="./css/movie.css" rel="stylesheet" type="text/css" />
+   <link href="./css/detail.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="body">
+   <div class="main">
       <header>
-        <ul>
+         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="movie.html">Movie</a></li>
             <li>
-                <h1 class="navh1">Fluffy</h1>
+               <h1 class="navh1">Fluffy</h1>
             </li>
             <li><a href="serie.html">Series</a></li>
             <li><a href="filminput.html">Toevoegen</a></li>
             <li><a href="filmZoeken.html">Zoeken</a></li>
             <li><a href="aboutMe.html">About me</a></li>
-        </ul>
-    </header>
-
+         </ul>
+      </header>
       <div class="cd-slider">
-        <ul>
-          <li>
-            <div
-              class="image"
-              style="
-                background-image: url(https://media.newsmonkey.be/20200902205218/James-Bond-No-Time-To-Die-1024x576.jpg);
-              "
-            ></div>
-            <div class="content">
-              <h2 class="navh2 content-h2">No Time to die</h2>
-            </div>
-          </li>
-          <li>
-            <div
-              class="image"
-              style="
-                background-image: url(https://www.superguide.nl/s3fs-public/main_media/black-widow-trailer.png);
-              "
-            ></div>
-            <div class="content">
-              <h2 class="navh2 content-h2">Black Widow</h2>
-            </div>
-          </li>
-          <li>
-            <div
-              class="image"
-              style="
-                background-image: url(https://images2.persgroep.net/rcs/wye_BXDL3Cqra7C8olyIhJk4D50/diocontent/154924259/_fitwidth/763?appId=2dc96dd3f167e919913d808324cbfeb2&quality=0.8);
-              "
-            ></div>
-            <div class="content">
-              <h2 class="navh2 content-h2">Peaky Blinder</h2>
-            </div>
-          </li>
-          <li>
-            <div
-              class="image"
-              style="
-                background-image: url(https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABfHVUAAEhu-G5QHH31CutuqX0wBfTK4nzyJXSyUkXm13Stw-yFpmeMzfTkBcmlsWu_CHM-JNr2d2sjncwPLkqG968JMe.jpg?r=321);
-              "
-            ></div>
-            <div class="content">
-              <h2 class="navh2 content-h2">Narcos</h2>
-            </div>
-          </li>
-          <li>
-            <div
-              class="image"
-              style="
-                background-image: url(https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg);
-              "
-            ></div>
-            <div class="content">
-              <h2 class="navh2 content-h2">Game of Thrones</h2>
-            </div>
-          </li>
-        </ul>
+         <ul>
+            <li>
+               <div
+                  class="image"
+                  style="
+                  background-image: url(https://media.newsmonkey.be/20200902205218/James-Bond-No-Time-To-Die-1024x576.jpg);
+                  "
+                  ></div>
+               <div class="content">
+                  <h2 class="navh2 content-h2">No Time to die</h2>
+               </div>
+            </li>
+            <li>
+               <div
+                  class="image"
+                  style="
+                  background-image: url(https://www.superguide.nl/s3fs-public/main_media/black-widow-trailer.png);
+                  "
+                  ></div>
+               <div class="content">
+                  <h2 class="navh2 content-h2">Black Widow</h2>
+               </div>
+            </li>
+            <li>
+               <div
+                  class="image"
+                  style="
+                  background-image: url(https://images2.persgroep.net/rcs/wye_BXDL3Cqra7C8olyIhJk4D50/diocontent/154924259/_fitwidth/763?appId=2dc96dd3f167e919913d808324cbfeb2&quality=0.8);
+                  "
+                  ></div>
+               <div class="content">
+                  <h2 class="navh2 content-h2">Peaky Blinder</h2>
+               </div>
+            </li>
+            <li>
+               <div
+                  class="image"
+                  style="
+                  background-image: url(https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABfHVUAAEhu-G5QHH31CutuqX0wBfTK4nzyJXSyUkXm13Stw-yFpmeMzfTkBcmlsWu_CHM-JNr2d2sjncwPLkqG968JMe.jpg?r=321);
+                  "
+                  ></div>
+               <div class="content">
+                  <h2 class="navh2 content-h2">Narcos</h2>
+               </div>
+            </li>
+            <li>
+               <div
+                  class="image"
+                  style="
+                  background-image: url(https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg);
+                  "
+                  ></div>
+               <div class="content">
+                  <h2 class="navh2 content-h2">Game of Thrones</h2>
+               </div>
+            </li>
+         </ul>
       </div>
-
       <main role="main">
-        <!-- Zoekveld waarmee films gezocht kunnen worden -->
-
-        <div class="album py-5 bg-light">
-          <section class="container">
-            <div class="row">
-              <div class="col-md-8">
-                <form class="form-inline" action="javascript:void(0);">
-                  <div class="form-group mx-sm-3 mb-2">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="inputSearch"
-                      placeholder="Type een titel van film"
-                    />
+         <!-- Zoekveld waarmee films gezocht kunnen worden -->
+         <div class="album py-5 bg-light">
+            <section class="container">
+               <div class="row">
+                  <div class="col-md-8">
+                     <form class="form-inline" action="javascript:void(0);">
+                        <div class="form-group mx-sm-3 mb-2">
+                           <input
+                              type="text"
+                              class="form-control"
+                              id="inputSearch"
+                              placeholder="Type een titel van film"
+                              />
+                        </div>
+                        <button
+                           type="submit"
+                           class="btn btn-grad mb-2"
+                           id="btnSearch"
+                           onclick="search()"
+                           >
+                        Zoek
+                        </button>
+                     </form>
                   </div>
-                  <button
-                    type="submit"
-                    class="btn btn-grad mb-2"
-                    id="btnSearch"
-                    onclick="search()"
-                  >
-                    Zoek
-                  </button>
-                </form>
-              </div>
+               </div>
+            </section>
+         </div>
+         <!-- Einde filmzoekveld -->
+         <div class="album py-5 bg-light">
+            <div class="container">
+               <div class="row" id="frontpage-movies">
+                  <div class="col-md-4 ">
+                     <div class="card mb-4 shadow-sm">
+                        <div class="card-img-wrapper">
+                           <img
+                              src="https://m.media-amazon.com/images/M/MV5BYWMwMzQxZjQtODM1YS00YmFiLTk1YjQtNzNiYWY1MDE4NTdiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                              class="card-img-top"
+                              aria-label="Placeholder: Thumbnail"
+                              alt=""
+                              />
+                        </div>
+                        <div class="card-body">
+                           <h5 id="movie-title" class="card-title">
+                              Black Hawk Down (2001)
+                           </h5>
+                           <p class="card-text">
+                              160 elite U.S. soldiers drop into Somalia to capture two
+                              top lieutenants of a renegade warlord and find themselves
+                              in a desperate battle with a large force of heavily-armed
+                              Somalis.
+                           </p>
+                           <div
+                              class="d-flex justify-content-between align-items-center"
+                              >
+                              <div class="btn-group">
+                                 <a
+                                    href="filmdetail.html"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Detail</a
+                                    >
+                                 <a
+                                    href="https://www.youtube.com/watch?v=2GfBkC3qs78"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Trailer</a
+                                    >
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="card mb-4 shadow-sm">
+                        <div class="card-img-wrapper">
+                           <img
+                              src="https://m.media-amazon.com/images/M/MV5BMjA0NTgwOTk5Ml5BMl5BanBnXkFtZTcwMjE3NDc5OQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                              class="card-img-top"
+                              aria-label="Placeholder: Thumbnail"
+                              alt=""
+                              />
+                        </div>
+                        <div class="card-body">
+                           <h5 id="movie-title" class="card-title">
+                              Lone Survivor (2013)
+                           </h5>
+                           <p class="card-text">
+                              Marcus Luttrell and his team set out on a mission to
+                              capture or kill notorious Taliban leader Ahmad Shah, in
+                              late June 2005. Marcus and his team are left to fight for
+                              their lives in one of the most valiant efforts of modern
+                              warfare.
+                           </p>
+                           <div
+                              class="d-flex justify-content-between align-items-center"
+                              >
+                              <div class="btn-group">
+                                 <a
+                                    href="filmdetail.html"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Detail</a
+                                    >
+                                 <a
+                                    href="https://www.youtube.com/watch?v=yoLFk4JK_RM"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Trailer</a
+                                    >
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="card mb-4 shadow-sm">
+                        <div class="card-img-wrapper">
+                           <img
+                              src="https://m.media-amazon.com/images/M/MV5BMTkxNzI3ODI4Nl5BMl5BanBnXkFtZTgwMjkwMjY4MjE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                              class="card-img-top"
+                              aria-label="Placeholder: Thumbnail"
+                              alt=""
+                              />
+                        </div>
+                        <div class="card-body">
+                           <h5 id="movie-title" class="card-title">
+                              American Sniper (2014)
+                           </h5>
+                           <p class="card-text">
+                              Navy S.E.A.L. sniper Chris Kyle's pinpoint accuracy saves
+                              countless lives on the battlefield and turns him into a
+                              legend. Back home with his family after four tours of
+                              duty, however, Chris finds that it is the war he can't
+                              leave behind.
+                           </p>
+                           <div
+                              class="d-flex justify-content-between align-items-center"
+                              >
+                              <div class="btn-group">
+                                 <a
+                                    href="filmdetail.html"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Detail</a
+                                    >
+                                 <a
+                                    href="https://www.youtube.com/watch?v=99k3u9ay1gs"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Trailer</a
+                                    >
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="card mb-4 shadow-sm">
+                        <div class="card-img-wrapper">
+                           <img
+                              src="https://m.media-amazon.com/images/M/MV5BOTEzNDU0OTgxM15BMl5BanBnXkFtZTgwNjA0ODM2OTE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                              class="card-img-top"
+                              aria-label="Placeholder: Thumbnail"
+                              alt=""
+                              />
+                        </div>
+                        <div class="card-body">
+                           <h5 id="movie-title" class="card-title">
+                              Deepwater Horizon (2016)
+                           </h5>
+                           <p class="card-text">
+                              A dramatization of the disaster in April 2010, when the
+                              offshore drilling rig called the Deepwater Horizon
+                              exploded, resulting in the worst oil spill in American
+                              history.
+                           </p>
+                           <div
+                              class="d-flex justify-content-between align-items-center"
+                              >
+                              <div class="btn-group">
+                                 <a
+                                    href="filmdetail.html"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Detail</a
+                                    >
+                                 <a
+                                    href="https://www.youtube.com/watch?v=8yASbM8M2vg"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Trailer</a
+                                    >
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="card mb-4 shadow-sm">
+                        <div class="card-img-wrapper">
+                           <img
+                              src="https://m.media-amazon.com/images/M/MV5BNTEzMjk3NzkxMV5BMl5BanBnXkFtZTgwNjY2NDczNDM@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                              class="card-img-top"
+                              aria-label="Placeholder: Thumbnail"
+                              alt=""
+                              />
+                        </div>
+                        <div class="card-body">
+                           <h5 id="movie-title" class="card-title">
+                              12 Strong (2018)
+                           </h5>
+                           <p class="card-text">
+                              12 Strong tells the story of the first Special Forces team
+                              deployed to Afghanistan after 9/11; under the leadership
+                              of a new captain, the team must work with an Afghan
+                              warlord to take down the Taliban.
+                           </p>
+                           <div
+                              class="d-flex justify-content-between align-items-center"
+                              >
+                              <div class="btn-group">
+                                 <a
+                                    href="filmdetail.html"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Detail</a
+                                    >
+                                 <a
+                                    href="https://www.youtube.com/watch?v=-Denciie5oA"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Trailer</a
+                                    >
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="card mb-4 shadow-sm">
+                        <div class="card-img-wrapper">
+                           <img
+                              src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                              class="card-img-top"
+                              aria-label="Placeholder: Thumbnail"
+                              alt=""
+                              />
+                        </div>
+                        <div class="card-body">
+                           <h5 id="movie-title" class="card-title">
+                              Interstellar (2014)
+                           </h5>
+                           <p class="card-text">
+                              A team of explorers travel through a wormhole in space in
+                              an attempt to ensure humanity's survival.
+                           </p>
+                           <div
+                              class="d-flex justify-content-between align-items-center"
+                              >
+                              <div class="btn-group">
+                                 <a
+                                    href="filmdetail.html"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Detail</a
+                                    >
+                                 <a
+                                    href="https://www.youtube.com/watch?v=zSWdZVtXT7E"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Trailer</a
+                                    >
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="card mb-4 shadow-sm">
+                        <div class="card-img-wrapper">
+                           <img
+                              src="https://m.media-amazon.com/images/M/MV5BNDVhMGNhYjEtMDkwZi00NmQ5LWFkODktYzhiYjY2NTZmYTNhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY268_CR3,0,182,268_AL_.jpg"
+                              class="card-img-top"
+                              aria-label="Placeholder: Thumbnail"
+                              alt=""
+                              />
+                        </div>
+                        <div class="card-body">
+                           <h5 id="movie-title" class="card-title">
+                              The Social Dilemma (2020)
+                           </h5>
+                           <p class="card-text">
+                              Explores the dangerous human impact of social networking,
+                              with tech experts sounding the alarm on their own
+                              creations.
+                           </p>
+                           <div
+                              class="d-flex justify-content-between align-items-center"
+                              >
+                              <div class="btn-group">
+                                 <a
+                                    href="filmdetail.html"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Detail</a
+                                    >
+                                 <a
+                                    href="https://www.youtube.com/watch?v=uaaC57tcci0"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Trailer</a
+                                    >
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="card mb-4 shadow-sm">
+                        <div class="card-img-wrapper">
+                           <img
+                              src="https://m.media-amazon.com/images/M/MV5BMGM0NzE2YjgtZGQ4YS00MmY3LTg4ZDMtYjUwNTNiNTJhNTQ5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR2,0,182,268_AL_.jpg"
+                              class="card-img-top"
+                              aria-label="Placeholder: Thumbnail"
+                              alt=""
+                              />
+                        </div>
+                        <div class="card-body">
+                           <h5 id="movie-title" class="card-title">
+                              Armageddon (1998)
+                           </h5>
+                           <p class="card-text">
+                              After discovering that an asteroid the size of Texas is
+                              going to impact Earth in less than a month, NASA recruits
+                              a misfit team of deep-core drillers to save the planet.
+                           </p>
+                           <div
+                              class="d-flex justify-content-between align-items-center"
+                              >
+                              <div class="btn-group">
+                                 <a
+                                    href="filmdetail.html"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Detail</a
+                                    >
+                                 <a
+                                    href="https://www.youtube.com/watch?v=JkK8g6FMEXE"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Trailer</a
+                                    >
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="card mb-4 shadow-sm">
+                        <div class="card-img-wrapper">
+                           <img
+                              src="https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                              class="card-img-top"
+                              aria-label="Placeholder: Thumbnail"
+                              alt=""
+                              />
+                        </div>
+                        <div class="card-body">
+                           <h5 id="movie-title" class="card-title">Joker (2019)</h5>
+                           <p class="card-text">
+                              In Gotham City, mentally troubled comedian Arthur Fleck is
+                              disregarded and mistreated by society. He then embarks on
+                              a downward spiral of revolution and bloody crime. This
+                              path brings him face-to-face with his alter-ego: the
+                              Joker.
+                           </p>
+                           <div
+                              class="d-flex justify-content-between align-items-center"
+                              >
+                              <div class="btn-group">
+                                 <a
+                                    href="filmdetail.html"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Detail</a
+                                    >
+                                 <a
+                                    href="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+                                    class="btn btn-sm btn-searchmovie"
+                                    >Trailer</a
+                                    >
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </section>
-        </div>
-
-        <!-- Einde filmzoekveld -->
-
-        <div class="album py-5 bg-light">
-          <div class="container">
-            <div class="row" id="frontpage-movies">
-              <div class="col-md-4 ">
-                <div class="card mb-4 shadow-sm">
-                  <div class="card-img-wrapper">
-                    <img
-                      src="https://m.media-amazon.com/images/M/MV5BYWMwMzQxZjQtODM1YS00YmFiLTk1YjQtNzNiYWY1MDE4NTdiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX182_CR0,0,182,268_AL_.jpg"
-                      class="card-img-top"
-                      aria-label="Placeholder: Thumbnail"
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 id="movie-title" class="card-title">
-                      Black Hawk Down (2001)
-                    </h5>
-                    <p class="card-text">
-                      160 elite U.S. soldiers drop into Somalia to capture two
-                      top lieutenants of a renegade warlord and find themselves
-                      in a desperate battle with a large force of heavily-armed
-                      Somalis.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="filmdetail.html"
-                          class="btn btn-sm btn-searchmovie"
-                          >Detail</a
-                        >
-                        <a
-                          href="https://www.youtube.com/watch?v=2GfBkC3qs78"
-                          class="btn btn-sm btn-searchmovie"
-                          >Trailer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="card-img-wrapper">
-                    <img
-                      src="https://m.media-amazon.com/images/M/MV5BMjA0NTgwOTk5Ml5BMl5BanBnXkFtZTcwMjE3NDc5OQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
-                      class="card-img-top"
-                      aria-label="Placeholder: Thumbnail"
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 id="movie-title" class="card-title">
-                      Lone Survivor (2013)
-                    </h5>
-                    <p class="card-text">
-                      Marcus Luttrell and his team set out on a mission to
-                      capture or kill notorious Taliban leader Ahmad Shah, in
-                      late June 2005. Marcus and his team are left to fight for
-                      their lives in one of the most valiant efforts of modern
-                      warfare.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="filmdetail.html"
-                          class="btn btn-sm btn-searchmovie"
-                          >Detail</a
-                        >
-                        <a
-                          href="https://www.youtube.com/watch?v=yoLFk4JK_RM"
-                          class="btn btn-sm btn-searchmovie"
-                          >Trailer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="card-img-wrapper">
-                    <img
-                      src="https://m.media-amazon.com/images/M/MV5BMTkxNzI3ODI4Nl5BMl5BanBnXkFtZTgwMjkwMjY4MjE@._V1_UX182_CR0,0,182,268_AL_.jpg"
-                      class="card-img-top"
-                      aria-label="Placeholder: Thumbnail"
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 id="movie-title" class="card-title">
-                      American Sniper (2014)
-                    </h5>
-                    <p class="card-text">
-                      Navy S.E.A.L. sniper Chris Kyle's pinpoint accuracy saves
-                      countless lives on the battlefield and turns him into a
-                      legend. Back home with his family after four tours of
-                      duty, however, Chris finds that it is the war he can't
-                      leave behind.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="filmdetail.html"
-                          class="btn btn-sm btn-searchmovie"
-                          >Detail</a
-                        >
-                        <a
-                          href="https://www.youtube.com/watch?v=99k3u9ay1gs"
-                          class="btn btn-sm btn-searchmovie"
-                          >Trailer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="card-img-wrapper">
-                    <img
-                      src="https://m.media-amazon.com/images/M/MV5BOTEzNDU0OTgxM15BMl5BanBnXkFtZTgwNjA0ODM2OTE@._V1_UX182_CR0,0,182,268_AL_.jpg"
-                      class="card-img-top"
-                      aria-label="Placeholder: Thumbnail"
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 id="movie-title" class="card-title">
-                      Deepwater Horizon (2016)
-                    </h5>
-                    <p class="card-text">
-                      A dramatization of the disaster in April 2010, when the
-                      offshore drilling rig called the Deepwater Horizon
-                      exploded, resulting in the worst oil spill in American
-                      history.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="filmdetail.html"
-                          class="btn btn-sm btn-searchmovie"
-                          >Detail</a
-                        >
-                        <a
-                          href="https://www.youtube.com/watch?v=8yASbM8M2vg"
-                          class="btn btn-sm btn-searchmovie"
-                          >Trailer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="card-img-wrapper">
-                    <img
-                      src="https://m.media-amazon.com/images/M/MV5BNTEzMjk3NzkxMV5BMl5BanBnXkFtZTgwNjY2NDczNDM@._V1_UX182_CR0,0,182,268_AL_.jpg"
-                      class="card-img-top"
-                      aria-label="Placeholder: Thumbnail"
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 id="movie-title" class="card-title">
-                      12 Strong (2018)
-                    </h5>
-                    <p class="card-text">
-                      12 Strong tells the story of the first Special Forces team
-                      deployed to Afghanistan after 9/11; under the leadership
-                      of a new captain, the team must work with an Afghan
-                      warlord to take down the Taliban.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="filmdetail.html"
-                          class="btn btn-sm btn-searchmovie"
-                          >Detail</a
-                        >
-                        <a
-                          href="https://www.youtube.com/watch?v=-Denciie5oA"
-                          class="btn btn-sm btn-searchmovie"
-                          >Trailer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="card-img-wrapper">
-                    <img
-                      src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg"
-                      class="card-img-top"
-                      aria-label="Placeholder: Thumbnail"
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 id="movie-title" class="card-title">
-                      Interstellar (2014)
-                    </h5>
-                    <p class="card-text">
-                      A team of explorers travel through a wormhole in space in
-                      an attempt to ensure humanity's survival.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="filmdetail.html"
-                          class="btn btn-sm btn-searchmovie"
-                          >Detail</a
-                        >
-                        <a
-                          href="https://www.youtube.com/watch?v=zSWdZVtXT7E"
-                          class="btn btn-sm btn-searchmovie"
-                          >Trailer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="card-img-wrapper">
-                    <img
-                      src="https://m.media-amazon.com/images/M/MV5BNDVhMGNhYjEtMDkwZi00NmQ5LWFkODktYzhiYjY2NTZmYTNhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY268_CR3,0,182,268_AL_.jpg"
-                      class="card-img-top"
-                      aria-label="Placeholder: Thumbnail"
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 id="movie-title" class="card-title">
-                      The Social Dilemma (2020)
-                    </h5>
-                    <p class="card-text">
-                      Explores the dangerous human impact of social networking,
-                      with tech experts sounding the alarm on their own
-                      creations.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="filmdetail.html"
-                          class="btn btn-sm btn-searchmovie"
-                          >Detail</a
-                        >
-                        <a
-                          href="https://www.youtube.com/watch?v=uaaC57tcci0"
-                          class="btn btn-sm btn-searchmovie"
-                          >Trailer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="card-img-wrapper">
-                    <img
-                      src="https://m.media-amazon.com/images/M/MV5BMGM0NzE2YjgtZGQ4YS00MmY3LTg4ZDMtYjUwNTNiNTJhNTQ5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR2,0,182,268_AL_.jpg"
-                      class="card-img-top"
-                      aria-label="Placeholder: Thumbnail"
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 id="movie-title" class="card-title">
-                      Armageddon (1998)
-                    </h5>
-                    <p class="card-text">
-                      After discovering that an asteroid the size of Texas is
-                      going to impact Earth in less than a month, NASA recruits
-                      a misfit team of deep-core drillers to save the planet.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="filmdetail.html"
-                          class="btn btn-sm btn-searchmovie"
-                          >Detail</a
-                        >
-                        <a
-                          href="https://www.youtube.com/watch?v=JkK8g6FMEXE"
-                          class="btn btn-sm btn-searchmovie"
-                          >Trailer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="card-img-wrapper">
-                    <img
-                      src="https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
-                      class="card-img-top"
-                      aria-label="Placeholder: Thumbnail"
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 id="movie-title" class="card-title">Joker (2019)</h5>
-                    <p class="card-text">
-                      In Gotham City, mentally troubled comedian Arthur Fleck is
-                      disregarded and mistreated by society. He then embarks on
-                      a downward spiral of revolution and bloody crime. This
-                      path brings him face-to-face with his alter-ego: the
-                      Joker.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="filmdetail.html"
-                          class="btn btn-sm btn-searchmovie"
-                          >Detail</a
-                        >
-                        <a
-                          href="https://www.youtube.com/watch?v=zAGVQLHvwOY"
-                          class="btn btn-sm btn-searchmovie"
-                          >Trailer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+         </div>
       </main>
-    </div>
-    <footer class="section-text-white footer footer-links bg-darken">
+   </div>
+   <footer class="section-text-white footer footer-links bg-darken">
       <div class="footer-body container">
-        <div class="row">
-          <div class="col-sm-6 col-lg-3">
-            <a class="footer-logo" href="./">
-              <span class="logo-text text-uppercase">
-                <span>Fluffy</span>
-              </span>
-            </a>
-            <div class="footer-content footer-color">
-              <p class="footer-text">Blikhoek 54 4453BG <br />Netherlands ZL</p>
+         <div class="row">
+            <div class="col-sm-6 col-lg-3">
+               <a class="footer-logo" href="./">
+               <span class="logo-text text-uppercase">
+               <span>Fluffy</span>
+               </span>
+               </a>
+               <div class="footer-content footer-color">
+                  <p class="footer-text">Blikhoek 54 4453BG <br />Netherlands ZL</p>
+               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-            <h5 class="footer-title footer-color text-uppercase">Movies</h5>
-            <ul class="list-unstyled list-wide footer-content">
-              <li>
-                <a class="content-link" href="#">All Movies</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-            <h5 class="footer-title footer-color text-uppercase">Series</h5>
-            <ul class="list-unstyled list-wide footer-content">
-              <li>
-                <a class="content-link" href="#">All Movies</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-            <h5 class="footer-title footer-color text-uppercase">Informatie</h5>
-            <ul class="list-unstyled list-wide footer-content">
-              <li>
-                <a class="content-link" href="filminput.html">Film toevoegen</a>
-              </li>
-              <li>
-                <a class="content-link" href="FilmZoeken.html">Film zoeken</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+            <div class="col-sm-6 col-lg-3">
+               <h5 class="footer-title footer-color text-uppercase">Movies</h5>
+               <ul class="list-unstyled list-wide footer-content">
+                  <li>
+                     <a class="content-link" href="#">All Movies</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <h5 class="footer-title footer-color text-uppercase">Series</h5>
+               <ul class="list-unstyled list-wide footer-content">
+                  <li>
+                     <a class="content-link" href="#">All Movies</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <h5 class="footer-title footer-color text-uppercase">Informatie</h5>
+               <ul class="list-unstyled list-wide footer-content">
+                  <li>
+                     <a class="content-link" href="filminput.html">Film toevoegen</a>
+                  </li>
+                  <li>
+                     <a class="content-link" href="FilmZoeken.html">Film zoeken</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
       </div>
-    </footer>
-    <script src="./js/film.js"></script>
-    <script
+   </footer>
+   <script src="./js/film.js"></script>
+   <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
-    ></script>
-    <script
+      ></script>
+   <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
       crossorigin="anonymous"
-    ></script>
-    <script
+      ></script>
+   <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
-    ></script>
-    <script src="./js/Search.min.js"></script>
-  </body>
+      ></script>
+   <script src="./js/Search.min.js"></script>
+</body>
 </html>
