@@ -1,29 +1,83 @@
 <!DOCTYPE html>
-<html lang="NL"></html>
+<html lang="en"></html>
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="About me page Joey de Jonge">
-  <title>About - Me</title>
+   <meta name="description" content="Fluffy Movie Database">
+  <title>Fluffy - Joey</title>
 
-   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
-   <link rel="stylesheet" type="text/css" href="css/Minify/aboutMe.min.css"/>
+   <!-- Bootstrap -->
+   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+   <!-- Font Awesome iconic font -->
+   <link href="./fontawesome/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" />
+   <!-- Fonts -->
+   <link href='https://fonts.googleapis.com/css?family=Oswald:300,400,500,700' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+   <!-- Theme styles -->
+   <link href="./css/film.css" rel="stylesheet" type="text/css">
+
+   
 </head>
-<body>
-   <header class="header">
-      <div>
-         <p class="header-intro">About me</p>
-         <h1 class="header-name">Page 😂</h1>
-      </div>
+<body class="body">
+   <div class="main">
+   <header>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="movie.html">Movie</a></li>
+         <li>
+            <h1 class="navh1">Fluffy</h1>
+         </li>
+         <li><a href="serie.html">Series</a></li>
+         <li><a href="filminput.html">Toevoegen</a></li>
+         <li><a href="filmZoeken.html">Zoeken</a></li>
+         <li><a href="aboutMe.html">About me</a></li>
+      </ul>
    </header>
+   <div class="cd-slider">
+      <ul>
+         <li>
+            <div class="image" style="background-image:url(img/Background/James-Bond-No-Time-To-Die-1024x576-min.jpg);"></div>
+            <div class="content">
+               <h2 class="navh2 content-h2">No Time to die</h2>
+            </div>
+         </li>
+         <li>
+            <div class="image" style="background-image:url(img/Background/black-widow-trailer-min.png);"></div>
+            <div class="content">
+               <h2 class="navh2 content-h2">Black Widow</h2>
+            </div>
+         </li>
+         <li>
+            <div class="image" style="background-image:url(img/Background/Narcos-min.jpg);"></div>
+            <div class="content">
+               <h2 class="navh2 content-h2">Peaky Blinder</h2>
+            </div>
+         </li>
+         <li>
+            <div class="image" style="background-image:url(img/Background/Peaky-blinders-min.jpg);"></div>
+            <div class="content">
+               <h2 class="navh2 content-h2">Narcos</h2>
+            </div>
+         </li>
+         <li>
+            <div class="image" style="background-image:url(img/Background/Game-of-Thrones-min.jpg);"></div>
+            <div class="content">
+               <h2 class="navh2 content-h2">Game of Thrones</h2>
+            </div>
+         </li>
+      </ul>
+   </div>
+   </div>
+   <!--/.cd-slider-->
+   <!-- Hero Image-->
    <section class="about">
-      <h2>Introduction</h2>
+      <h2 class=" navh2 content-h2">Introduction</h2>
       <p>Hoi ik ben Joey de Jonge en ben <strong>21 jaar oud</strong> en studeer informatica aan Avans Breda.</p>
       <p>Mijn intresse ligt vooral in sport en techniek.</p>
       <img src="img/GenerateImage.jpg" alt="Joey de Jonge"></img> 
    </section>
    <section class="questions">
-      <h2>More about me</h2>
+      <h2 class="navh2 content-h2" >More about me</h2>
       <h3>Waar kom ik vandaan?</h3>
       <p>Ik kom uit 's-Heerenhoek dat is klein dorpje in de provincie <Strong>Zeeland</Strong>.</p>
       <h3>
@@ -38,14 +92,52 @@
       Front-end of back-end?</h2>
       <p>Ik zou voor full stack gaan omdat je hierbij meer een complete developer wordt en meerdere richtingen op kan gaan. </p>
    </section>
-   <footer class="footer">
-      <p>You can find out a bit more about me in these places</p>
-      <ul class="social">
-         <li>Twitter</li>
-         <li>Github</li>
-         <li>Facebook</li>
-         <li><a class="link" href="index.html" target="_blank">Film website</li>
-      </ul>
+   
+   <footer class="section-text-white footer footer-links bg-darken">
+      <div class="footer-body container">
+         <div class="row">
+            <div class="col-sm-6 col-lg-3">
+               <a class="footer-logo" href="./">
+               <span class="logo-text text-uppercase">
+               <span>Fluffy</span>
+               </span>
+               </a>
+               <div class="footer-content footer-color">
+                  <p class="footer-text">Blikhoek 54 4453BG
+                     <br />Netherlands ZL
+                  </p>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <h5 class="footer-title footer-color text-uppercase">Movies</h5>
+               <ul class="list-unstyled list-wide footer-content">
+                  <li>
+                     <a class="content-link" href="#">All Movies</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <h5 class="footer-title footer-color text-uppercase">Series</h5>
+               <ul class="list-unstyled list-wide footer-content">
+                  <li>
+                     <a class="content-link" href="#">All Movies</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <h5 class="footer-title footer-color text-uppercase">Informatie</h5>
+               <ul class="list-unstyled list-wide footer-content">
+                  <li>
+                     <a class="content-link" href="filminput.html">Film toevoegen</a>
+                  </li>
+                  <li>
+                     <a class="content-link" href="FilmZoeken.html">Film zoeken</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
    </footer>
+   <script src="./js/Minify/film.min.js"></script>
 </body>
 </html>
