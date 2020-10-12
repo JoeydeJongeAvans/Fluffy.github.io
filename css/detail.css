@@ -145,6 +145,23 @@ body {
     background-repeat: no-repeat;
 }
 
+.detail-acteur {
+    background-image: url(https://www.rtlboulevard.nl/sites/default/files/styles/liggend/public/ANP151219041-1.jpg?h=6c368621&itok=MS6P0Al4);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.detail-acteur {
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url(https://www.rtlboulevard.nl/sites/default/files/styles/liggend/public/ANP151219041-1.jpg?h=6c368621&itok=MS6P0Al4);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .hero-inner {
     max-width: 50vw;
     padding-left: 2rem;
