@@ -19,7 +19,7 @@ a:hover {
   color: #ff680d;
 }
 .content-link {
-  color: white;
+ color: #ff680d;
 }
 .content-link:hover {
   text-decoration: none;
@@ -48,6 +48,10 @@ a:hover {
 
 .section-movie {
   margin-bottom: 1rem;
+}
+
+.entity-category {
+  display: flex;
 }
 
 /* Image */
