@@ -162,6 +162,23 @@ body {
     background-repeat: no-repeat;
 }
 
+.detail-acteur-movie {
+    background-image: url(https://www.manners.nl/wp-content/uploads/2018/03/steve-rogers-super-team-marvel-shield-schit-superheroes-avengers-chris-evans-captain-america.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.detail-acteur-movie {
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url(https://www.manners.nl/wp-content/uploads/2018/03/steve-rogers-super-team-marvel-shield-schit-superheroes-avengers-chris-evans-captain-america.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .hero-inner {
     max-width: 50vw;
     padding-left: 2rem;
